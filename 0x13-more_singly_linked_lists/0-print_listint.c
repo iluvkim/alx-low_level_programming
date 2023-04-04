@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
@@ -7,7 +7,7 @@
  *
  * Return: number of nodes in the list
  **/
-size_t print_listint(const listint_t *h);
+size_t print_listint(const listint_t *h)
 {
 	size_t count = 0;
 	const listint_t *cursor = h;
